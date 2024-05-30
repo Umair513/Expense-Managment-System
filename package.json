@@ -1,0 +1,21 @@
+{
+  "name": "expense-managment-system",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000E\u0000x\u0000p\u0000e\u0000n\u0000s\u0000e\u0000-\u0000M\u0000a\u0000n\u0000a\u0000g\u0000m\u0000e\u0000n\u0000t\u0000-\u0000S\u0000y\u0000s\u0000t\u0000e\u0000m\u0000\r\u0000 \u0000",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Umair Ahmed Soomro",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.2"
+  }
+}
