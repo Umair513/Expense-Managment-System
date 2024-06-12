@@ -13,9 +13,7 @@ app.use(cors())
 app.use(morgan("dev"))
 app.use(express.json())
 
-app.get("/", (req, res) => {
-    res.send("<h1>Hello from Server</h1>")
-})
+app.use("/api/v1/users", require("./routes/userRoute"))
 
 const PORT = 8080 || process.env.PORT
 
